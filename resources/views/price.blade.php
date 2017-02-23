@@ -14,17 +14,18 @@
                         <tr>
                             <td>Id </td>
                             <th>Open Price </th>
-                            <th>originalamount</th>
-                            <th>amount</th>
-                            <th>closetime</th>
-                            <th>stoplossprice</th>
-                            <th>requestedamount</th>
-                            <th>ordercommand</th>
-                            <th>takeprofitprice</th>
-                            <th>closeprice</th>
-                            <th>state</th>
-                            <th>instrument</th>
-                            <th>filltime</th>
+                            <th>Original amount</th>
+                            <th>Amount</th>
+                            <th>Close Time</th>
+                            <th>Stop Loss Price</th>
+                            <th>Requested Amount</th>
+                            <th>Order Command</th>
+                            <th>Take Profit Price</th>
+                            <th>Close Price</th>
+                            <th>State</th>
+                            <th>Instrument</th>
+                            <th>Fill time</th>
+                            <th>Updated At</th>
                         </tr>
                     </thead>    
 
@@ -46,6 +47,7 @@
                         <td>{{$record["state"]}}</td>
                         <td>{{$record["instrument"]}}</td>
                         <td>{{$record["filltime"]}}</td>
+                        <td>{{$record["price_at"]}}</td>
                     </tr>
                     @endforeach
                 </tbody>
