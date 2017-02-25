@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="panel panel-default">
-                <div class="panel-heading">Price History - Updated at: {{$updatedat}}</div>
+                <div class="panel-heading">Price History - Freshed at: {{$updatedat}}</div>
 
                 <div class="panel-body">
                     <table class="table table-striped">
